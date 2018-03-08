@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  mongodb:
+    image: 'bitnami/mongodb:latest'
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGODB_USERNAME=fsabadini
+      - MONGODB_PASSWORD=fsabadini
+      - MONGODB_DATABASE=fsabadini
